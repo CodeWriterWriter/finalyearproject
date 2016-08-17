@@ -1,0 +1,15 @@
+{
+  "name": "video-project",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWriterWriter/projecto"
+  },
+  "author": "Jane Quinn",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
