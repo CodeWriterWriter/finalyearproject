@@ -6,27 +6,41 @@
     <link href="http://vjs.zencdn.net/5.10.8/video-js.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styling.css">
   </head>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
   <body>
-    <div class="wrapper">
-      <div class="video">
-        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-        data-setup='{"fluid": true}'>
-          <source src="test.mp4" type='video/mp4'>
-        </video>
+    <div class ="page">
+      <div class="wrapper">
+        <div class="video">
+          <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+          data-setup='{"fluid": true}'>
+            <source src="test.mp4" type='video/mp4'>
+          </video>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="messages">
+          <h2>Sup</h2>
+        </div>
+        <div class="text-field">
+          <form action="">
+            <input id="m" type="text" name="message">
+          </form>
+        </div>
       </div>
     </div>
-    <div class="chat">
-      <div class="messages">
-      </div>
-      <div class="text-field">
-      </div>
-    </div>
-  </div>
   </body>
   <script>
     // You can also require other files to run in this process
+    /**/
     require('./renderer.js')
-
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('chat message', $('#m').val());
+      console.log($'#m'.val())
+      $('#m').val('');
+      return false;
+    });
 
   </script>
 </html>

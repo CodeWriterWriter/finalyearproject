@@ -57,3 +57,7 @@ video.video-js {
   z-index: 1;
   max-width: 100%;
 }
+
+.chat {
+  float:right;
+}
