@@ -1,0 +1,20 @@
+11th December: Electronic report
+13th December: 2 hard copies of electronic report, first and second reader names on cover
+Both names on both copies, specifying first reader and second reader
+10th January 13th January: Demo/Presentation
+4000 word report for semester 1
+write up of all the tech i decided not to use and why
+justify the tech I'm using
+
+Week 1,     Date: 11th October 2016,  Time:1:45
+Attendance: Both attended the meeting
+
+Report on Previous Weeks Work:
+  There was no previous week.
+.
+Notes of this meeting:
+  Discussed the details of the assignments due for the final year project, specifically the report due at the end of semester 1.
+
+Plan for next week:
+  I won't be able to attend the next meeting, so for the following meeting have begun work on figuring out why I chose to use the tech for my final year project
+  in lieu of other languages/frameworks etc.
